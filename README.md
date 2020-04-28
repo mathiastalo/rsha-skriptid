@@ -1,6 +1,6 @@
 # Automatiseeritud skriptid kasutamiseks.
 ## Paigaldamine
-Siin on olemas erinevad automatiseeritud skirptid alates apache serveri paigaldamisest lõpetades Wordpress paigaldusega.
+Siin on olemas erinevad automatiseeritud skriptid alates Apache serveri paigaldamisest lõpetades Wordpress paigaldusega.
 Skripte saab käivitada käsuga
 ```
 sh apache_paigaldus.sh
@@ -13,7 +13,7 @@ git confug --global user.email email@domeen.com
 git config --global core.editor nano
 ```
 
-iga skripti eesmärk on installeerida või kontrollida mingi tarkvara olemas olu.
+Iga skripti eesmärk on installeerida või kontrollida mingi tarkvara olemasolu.
 
 Skriptide paigaldamise järjekord
 1. apache
@@ -26,4 +26,4 @@ Skriptide paigaldamise järjekord
 Küsimuste korral kirjutada mathias.talo@khk.ee
 ---
 
-Asible Skriptide vaatamiseks mine github.com/mathiastalo/ansible-skriptid
+Ansible skriptide vaatamiseks mine https://github.com/mathiastalo/ansible_skriptid

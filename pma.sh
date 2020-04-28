@@ -3,7 +3,7 @@
 #Kontrollib, kas tarkvara on juba olemas või vajab installeerimist
 PMA=$(dpkg-query -W -f="${status}" phpmyadmin 2>/dev/null | grep -c "ok installed")
 
-#Kui PMA väärtus = null siis ta instaleerib ja paigaldab teenuse, ning annab sellest ka teada
+#Kui PMA väärtus = null siis ta installeerib ja paigaldab teenuse, ning annab sellest ka teada
 if [ $PMA -eq 0 ]; then
 echo "Phpmyadmin paigaldamine"
 apt install phpmyadmin
